@@ -1,5 +1,5 @@
-﻿if (!A_IsAdmin)
-	Run *RunAs %A_ScriptFullPath%
+if (!A_IsAdmin)
+    Run *RunAs %A_ScriptFullPath%
 FileEncoding UTF-8-RAW
 
 Menu Tray,NoStandard
@@ -18,7 +18,7 @@ Ethernet:
 return
 
 Exit:
-	ExitApp
+    ExitApp
 
 
 #NoEnv
